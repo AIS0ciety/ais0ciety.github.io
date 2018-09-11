@@ -5,6 +5,11 @@ a {
     text-decoration: none;
 }
 
+b,
+strong {
+    font-weight: bold !important;
+}
+
 * {
     transition: 0.4s ease;
 }
