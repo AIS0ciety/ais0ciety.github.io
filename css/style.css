@@ -522,6 +522,7 @@ body {
     background-color: #000;
     color: #fff;
     height: 360px;
+    margin-top: 60px;
 }
 
 .sponsor-part {
@@ -548,6 +549,10 @@ body {
 
 .sponsor-part .half-big-text {
     margin-bottom: 0;
+}
+
+.events-section {
+    margin-top: 60px;
 }
 
 .event-row {
