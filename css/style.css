@@ -166,13 +166,13 @@ body {
 
 .top-section {
     height: 100vh;
-    background: url("../img/back.jpg") no-repeat center;
+    background: url("../img/back.png") no-repeat center;
     background-size: cover;
 }
 
 .team-image {
     height: 100vh;
-    background: url("../img/back1.png") no-repeat center;
+    background: url("../img/team.png") no-repeat center;
     background-size: cover;
 }
 
@@ -197,6 +197,7 @@ body {
     line-height: 24px;
     letter-spacing: 2px;
     font-weight: 400;
+    margin-right: -2px;
 }
 
 .big-text {
@@ -207,6 +208,7 @@ body {
     font-weight: bold;
     letter-spacing: 20px;
     margin-bottom: 60px;
+    margin-right: -20px;
 }
 
 .half-big-text {
@@ -217,6 +219,7 @@ body {
     line-height: 48px;
     letter-spacing: 12px;
     margin-bottom: 45px;
+    margin-right: -12px;
 }
 
 .half-big-text.has-border {
@@ -539,11 +542,11 @@ body {
 }
 
 .sponsor-part:nth-child(3) {
-    background: url("https://pbs.twimg.com/media/CaZrLNFUMAAhCOf.jpg") no-repeat center;
+    background: url("../img/wolfram.png") no-repeat center;
 }
 
 .sponsor-part:nth-child(4) {
-    background: url("http://static1.squarespace.com/static/50899d9ce4b0852b71ea8642/t/56280caae4b00bbdefaf5ab8/1445465261275/Fake+Clothing+Logo") no-repeat center;
+    background: url("../img/mlh.png") no-repeat center;
 }
 
 .sponsor-part .half-big-text {
@@ -588,12 +591,13 @@ body {
 }
 
 .event-row-half.black-nn {
-    background: url("../img/nn.gif") no-repeat center;
-    background-size: cover;
+    /*background-color: #000;*/
+    background: url("../img/tier.gif") no-repeat center #000;
+    /*background-size: cover;*/
 }
 
 .event-row-half.black-code {
-    background: url("../img/dna.gif") no-repeat center;
+    background: url("../img/code.gif") no-repeat center;
     background-size: cover;
 }
 
@@ -732,15 +736,17 @@ body {
     .test-left .half-big-text {
         letter-spacing: 2px;
         padding: 15px 35px;
+        margin-right: -2px;
     }
 
 }
 
 @media screen and (max-width: 1100px) {
     .big-text {
-        font-size: 45px;
+        font-size: 40px;
         line-height: 50px;
         letter-spacing: 14px;
+        margin-right: -14px;
     }
     .nav-logo {
         left: 4%;
@@ -758,7 +764,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .logointel{ 
-        height: 1.5em; width: 2.8em;
+        height: 1.6em; width: 2.8em;
     }
     .nav-logo {
         left: 50px;
@@ -828,17 +834,6 @@ body {
         padding: 0 0 30px;
         width: 100%;
     }
-    .collage-column {
-        height: 33.333333%;
-        width: 100%;
-    }
-    .collage-column:nth-child(1) .collage-image.third {
-        height: 33.333333%;
-    }
-    .collage-image.third,
-    .collage-image.two-thirds {
-        height: 50%;
-    }
     .profile-image,
     .profile-content {
         width: 100%;
@@ -870,8 +865,9 @@ body {
     .big-text {
         font-size: 36px;
         line-height: 46px;
-        letter-spacing: 6px;
+        letter-spacing: 2px;
         margin-bottom: 22px;
+        margin-right: -2px;
     }
     .orbitron {
         margin-bottom: 22px;
@@ -891,5 +887,9 @@ body {
     }
     .event-row {
         height: 500px;
+    }
+    .half-big-text.has-border {
+        padding: 10px 6px;
+        font-size: 16px;
     }
 }
