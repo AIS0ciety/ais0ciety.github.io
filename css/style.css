@@ -166,6 +166,12 @@ body {
 
 .top-section {
     height: 100vh;
+    background: url("../img/back.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.team-image {
+    height: 100vh;
     background: url("../img/back1.png") no-repeat center;
     background-size: cover;
 }
