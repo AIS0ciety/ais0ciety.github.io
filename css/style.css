@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
-@import url("https://fonts.googleapis.com/css?family=Orbitron:700");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat:400,700');
 a {
     text-decoration: none;
 }
@@ -16,7 +14,7 @@ strong {
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto";
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 18px;
     letter-spacing: 2px;
@@ -130,9 +128,10 @@ body {
 .nav-link {
     color: #999;
     font-size: 13px;
+    font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    font-weight: 500;
+    /* font-weight: 500; */
     padding: 0 12px;
     transition: 0.4s ease;
 }
@@ -172,16 +171,18 @@ body {
 }
 
 .big-text {
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 58px;
     line-height: 72px;
+    font-weight: bold;
     letter-spacing: 20px;
     margin-bottom: 60px;
 }
 
 .half-big-text {
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     font-size: 30px;
     line-height: 48px;
@@ -371,6 +372,7 @@ body {
 .small-header {
     font-family: "Montserrat";
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 8px;
@@ -479,7 +481,7 @@ body {
     letter-spacing: 4px;
     border: 1px solid;
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: 'Lato', sans-serif;
 }
 
 .profile-content p {
@@ -521,7 +523,7 @@ body {
 
 .event-row {
     height: 400px;
-    max-width: 1300px;
+    max-width: 100vw;
     margin: auto;
 }
 
@@ -536,8 +538,11 @@ body {
 }
 
 .event-row-half.grey-back {
-    background: url("../img/events.jpg") no-repeat center;
-    background-size: cover;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background-size: cover; */
 }
 
 .event-row-half.black-back {
