@@ -92,14 +92,18 @@ body {
     position: fixed;
     z-index: 100;
     height: 110px;
+  
     top: 0;
     left: 0;
     right: 0;
     padding: 0 6%;
 }
+.nav-link.active {
+    color:white;
+}
 
 .nav-bar.scrolled {
-    height: 80px;
+    /* height: 80px; */
     background-color: rgba(255, 255, 255, 1);
 }
 
@@ -138,12 +142,12 @@ body {
 
 .nav-link.active,
 .nav-link:hover {
-    color: black;
+    color: #0071c5;
 }
 
 .top-section {
     height: 100vh;
-    background: url("../img/back.jpg") no-repeat center;
+    background: url("../img/back1.png") no-repeat center;
     background-size: cover;
 }
 
