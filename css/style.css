@@ -1,23 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 a {
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
+
 a:link {
     color:#0071c5;
 }
 
-/* visited link */
 a:visited {
     color: #0071c5;
 }
 
-/* mouse over link */
 a:hover {
     color: #0071c5;
 }
 
-/* selected link */
 a:active {
     color: #0071c5;
 }
@@ -513,7 +510,7 @@ body {
     letter-spacing: 4px;
     border: 1px solid;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .profile-content p {
