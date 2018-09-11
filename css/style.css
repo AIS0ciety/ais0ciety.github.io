@@ -638,26 +638,6 @@ body {
     text-align: left;
 }
 
-.contact-input {
-    width: 85%;
-    margin: 8px auto;
-    font-family: "Montserrat";
-    font-size: 12px;
-    line-height: 18px;
-    padding: 10px;
-    border: 5px solid;
-    text-align: left;
-}
-
-.contact-input.big-input {
-    height: 140px;
-    border-top: transparent;
-    border-right: transparent;
-}
-
-.contact-input:focus {
-    outline: none;
-}
 
 .footer-section {
     padding: 75px 0;
