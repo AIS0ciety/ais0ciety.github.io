@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 a {
     text-decoration: none;
 }
@@ -100,7 +100,7 @@ body {
 
 .nav-bar.scrolled {
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .nav-logo {
@@ -138,7 +138,7 @@ body {
 
 .nav-link.active,
 .nav-link:hover {
-    color: #fff;
+    color: black;
 }
 
 .top-section {
