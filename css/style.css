@@ -434,14 +434,6 @@ body {
     margin: 0 auto -15px;
 }
 
-.profile-view-container .profile-image {
-    display: inline-block;
-    height: 576px;
-    width: 48%;
-    vertical-align: top;
-    background: url("http://orig01.deviantart.net/b87d/f/2014/160/7/4/business_man_looking_disgustingly_at_a_corn_dog_by_ashmaster1121-d7lpp2k.jpg") no-repeat center;
-    background-size: 375px 576px;
-}
 
 .profile-view-container .arrow {
     position: absolute;
