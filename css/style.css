@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 a {
     text-decoration: none;
+    
+}
+a:link {
+    color:#0071c5;
+}
+
+/* visited link */
+a:visited {
+    color: #0071c5;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0071c5;
+}
+
+/* selected link */
+a:active {
+    color: #0071c5;
 }
 
 b,
@@ -199,7 +218,7 @@ body {
     position: relative;
     margin: 0 auto 50px;
     padding: 15px 45px;
-    border: 10px solid;
+    border: 5px solid;
 }
 
 .under-top-section {
@@ -699,12 +718,16 @@ body {
 .social-button.github-button {
     background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-256.png") no-repeat center;
 }
+.logointel{ 
+    height: 3.5em; width: 6em; margin:0.2em;
+}
 
 @media screen and (max-width: 1300px) {
     .test-left .half-big-text {
         letter-spacing: 2px;
         padding: 15px 35px;
     }
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -728,8 +751,8 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-    .nav-bar.scrolled .nav-links-container {
-        top: 30px;
+    .logointel{ 
+        height: 1.5em; width: 2.8em;
     }
     .nav-logo {
         left: 50px;

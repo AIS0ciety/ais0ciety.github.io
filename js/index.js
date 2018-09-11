@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     $(".nav-link").click(function(){
-        $('html,body').animate({ scrollTop: $(this.hash).offset().top-80 }, 1400);
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top -80 }, 1400);
         return false;
     });
     
@@ -10,8 +10,8 @@ $(document).ready(function(){
         return false;
     });
     
-    $(window).scroll(function(){
-        ($(window).scrollTop() >= 110) ? (
+    $(document).scroll(function(){
+        ($(document).scrollTop() >= 110) ? (
             $('.nav-bar').addClass('scrolled')
         ) : (
             $('.nav-bar').removeClass('scrolled')
