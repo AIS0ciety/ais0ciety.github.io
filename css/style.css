@@ -751,7 +751,14 @@ body {
 .logointel{ 
     height: 3.5em; width: 6em; margin:0.2em;
 }
-
+.event-header {
+    position: absolute;
+    right: 0rem;
+    top: -25rem;
+    z-index: -10;
+    -webkit-filter: drop-shadow(5px 5px 50px rgba(34, 34, 34, 0.493));
+    filter: drop-shadow(5px 5px 50px rgba(34, 34, 34, 0.479));
+}
 @media screen and (max-width: 1300px) {
     .test-left .half-big-text {
         letter-spacing: 2px;
@@ -868,6 +875,9 @@ body {
     }
     .sponsor-grid {
         grid-template-columns: 1fr;
+    }
+    .event-header {
+        opacity: 0.3!important;
     }
 
 }

@@ -21,6 +21,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -43,7 +44,7 @@
         <div class="abs-cent-text top-text">
             <h1 class="big-text">Intel AI Society</h1>
             <div class="orbitron top-orb">\\\///</div>
-            <p class="top-small-text">Innovate Integrate Inspire</p>
+            <p class="top-small-text"  data-aos="fade-right" data-aos-duration="2000"  >Innovate Integrate Inspire</p>
         </div>
     </div>
     <div class="rela-block under-top-section">
@@ -67,7 +68,8 @@
         <div class="abs-cent-text top-text">
             <h1 class="big-text" style="opacity: 0.8"></h1>
         <div class="orbitron top-orb"></div><br><br><br><br><br><br><br>
-        <p class="big-text">THE TEAM</p>
+        <p class="big-text" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">THE TEAM</p>
     </div>
     </div>
     <div class="orbitron black-orb">\\\///</div>
@@ -96,10 +98,14 @@
         </div>
     </div>
     <div class="sponsor-grid">
-        <div class="sponsor-grid-e"></div>
-        <div class="sponsor-grid-e"></div>
-        <div class="sponsor-grid-e"></div>
-        <div class="sponsor-grid-e"></div>
+        <div class="sponsor-grid-e" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div>
+        <div class="sponsor-grid-e" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div>
+        <div class="sponsor-grid-e" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div>
+        <div class="sponsor-grid-e" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div>
     </div>
 
     <div class="rela-block events-section" id="eventsSection">
@@ -107,6 +113,7 @@
             <div class="floated left event-row-half grey-back">
                 <div class="abs-cent-text">
                     <h2 class="half-big-text has-border" style="color:white;">Events</h2>
+              
                 </div>
             </div>
             <div class="floated right event-row-half">
@@ -154,11 +161,11 @@
     </div>
     <div class="rela-block contact-section" id="contactSection">
         <h2 class="half-big-text has-border">Contact</h2>
-        <p>Any query is most welcome. shoot us with as many questions as you like.</p>
+        <p id='hesitate'>Any query is most welcome. shoot us with as many questions as you like.</p>
         <div class="orbitron black-orb">\\\///</div>
         <div class="rela-block contact-form-container">
             <div class="contact-half contact">
-                <h2 class="small-header">Don't hesitate to contact us at <a href='mailto:intelaisociety@gmail.com'>intelaisociety@gmail.com</a></h2>
+                <h2 class="small-header" >Don't hesitate to contact us at <a href='mailto:intelaisociety@gmail.com'>intelaisociety@gmail.com</a></h2>
                 <div class="rela-block quad-container">
                     <div class="contact-quad"><b><a href="mailto:mukulgoyal40@gmail.com">Mukul Goyal</a></b>
                         <br><b>8447265332</b>
@@ -176,7 +183,7 @@
             </div>
         </div>
     </div>
-    <div class="rela-block footer-section">
+    <div class="rela-block footer-section" style="overflow:visible;" >
         <h2 class="small-header top-link">Back to Top</h2>
         <div class="rela-block social-buttons-container">
             <a href="https://github.com/Ujjwal-9">
@@ -192,9 +199,17 @@
                 <div class="social-button github-button"></div>
             </a>
         </div>
+        <img src="./img/pubg.png" class="event-header" data-aos="fade-left"
+        data-aos-offset="500"
+        data-aos-anchor="#hesitate"
+        data-aos-duration="500" />
     </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
