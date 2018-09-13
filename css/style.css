@@ -530,20 +530,39 @@ body {
     background-size: 80% !important;
 }
 
-.sponsor-part:nth-child(1) {
-    width: 40%;
+.sponsor-grid {
+    /* background: red; */
+    width:100vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top:2rem;
+    /* margin :2rem; */
+}
+.sponsor-grid div {
+    min-height: 100px;
+    
 }
 
-.sponsor-part:nth-child(2) {
+.sponsor-grid-e:nth-child(1) {
     background: url("../img/intel.png") no-repeat center;
+    background-size: auto 100%;
 }
 
-.sponsor-part:nth-child(3) {
+.sponsor-grid-e:nth-child(2) {
     background: url("../img/wolfram.png") no-repeat center;
+    background-size: auto 100%;
 }
 
-.sponsor-part:nth-child(4) {
+.sponsor-grid-e:nth-child(3) {
     background: url("../img/mlh.png") no-repeat center;
+    background-size: auto 100%;
+}
+
+.sponsor-grid-e:nth-child(4) {
+    background: url("../img/estimote.png") no-repeat center;
+    background-size: auto 100%;
 }
 
 .sponsor-part .half-big-text {
@@ -764,6 +783,9 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+    .sponsor-grid {
+        grid-template-columns: 1fr 1fr;
+    }
     .logointel{ 
         height: 1.6em; width: 2.8em;
     }
@@ -844,22 +866,10 @@ body {
     .profile-content p {
         margin: 0 auto 60px;
     }
-    .sponsor-part {
-        height: 25%;
-        width: 100%;
+    .sponsor-grid {
+        grid-template-columns: 1fr;
     }
-    .sponsor-part:nth-child(1) {
-        width: 100%;
-    }
-    .sponsor-part:nth-child(2) {
-        background-size: 140px 100% !important;
-    }
-    .sponsor-part:nth-child(3) {
-        background-size: 150px 100% !important;
-    }
-    .sponsor-part:nth-child(4) {
-        background-size: 260px 100% !important;
-    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -890,7 +900,8 @@ body {
         height: 500px;
     }
     .half-big-text.has-border {
-        padding: 10px 6px;
-        font-size: 16px;
+        /* padding: 10px 10px; */
+        font-size:1.2rem;
+        border: none;
     }
 }
