@@ -582,6 +582,10 @@ body {
     background: url("../img/tt.png") no-repeat center;
     background-size: auto 100%;
 }
+.sponsor-grid-e:nth-child(9) {
+    background: url("../img/bageera.png") no-repeat center;
+    background-size: auto 100%;
+}
 .sponsor-part .half-big-text {
     margin-bottom: 0;
 }
