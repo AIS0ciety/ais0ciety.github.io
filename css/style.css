@@ -147,7 +147,7 @@ body {
 
 .nav-link {
     color: #999;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -159,6 +159,8 @@ body {
 .nav-link.active,
 .nav-link:hover {
     color: #0071c5;
+	background:#999;
+	
 }
 
 .top-section {
