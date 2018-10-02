@@ -837,7 +837,7 @@ body {
         left: 50px;
     }
     .nav-links-container {
-        width: 140px;
+        width: 25%;
         text-align: center;
         top: 40px;
         -webkit-transform: none;
@@ -854,6 +854,8 @@ body {
         height: 0;
         opacity: 0;
         transition: 0s ease;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
     .nav-link.active {
         height: 100%;
