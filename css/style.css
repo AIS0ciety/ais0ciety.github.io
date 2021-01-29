@@ -534,74 +534,59 @@ body {
 
 .sponsor-grid {
     /* background: red; */
-    width:100vw;
     height: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
-    margin-top:2rem;
-    /* margin :2rem; */
+    margin :2rem;
 }
 .sponsor-grid div {
-    min-height: 100px;
-    
+    min-height: 150px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+    background-size: contain!important;
 }
 
 .sponsor-grid-e:nth-child(1) {
     background: url("../img/intel.png") no-repeat center;
-    background-size: auto 100%;
 }
 
 .sponsor-grid-e:nth-child(2) {
     background: url("../img/wolfram.png") no-repeat center;
-    background-size: auto 100%;
 }
 
 /*.sponsor-grid-e:nth-child(3) {
     background: url("../img/mlh.png") no-repeat center;
-    background-size: auto 100%;
 }*/
 
 .sponsor-grid-e:nth-child(3) {
     background: url("../img/estimote.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(4) {
     background: url("../img/HasuraLogoHorizontal.png") no-repeat center;
-    background-size: auto 100%;
 }
-
 .sponsor-grid-e:nth-child(5) {
     background: url("../img/jetbrains.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(6) {
     background: url("../img/delhi63.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(7) {
     background: url("../img/tt.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(8) {
     background: url("../img/bageera.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(9) {
     background: url("../img/Progate.jpg") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(10) {
     background: url("../img/Eckovation.png") no-repeat center;
-    background-size: auto 50%;
 }
 .sponsor-grid-e:nth-child(11) {
     background: url("../img/HackerRank.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-grid-e:nth-child(12) {
     background: url("../img/OReilly.png") no-repeat center;
-    background-size: auto 100%;
 }
 .sponsor-part .half-big-text {
     margin-bottom: 0;
